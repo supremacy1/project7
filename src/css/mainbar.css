@@ -1,0 +1,210 @@
+.content{
+    display: flex;
+    position: relative;
+    margin-top: 1%;
+    justify-content: center;
+    justify-self: stretch;
+    justify-content: space-around;
+}
+/* NavBar.css */
+.navbar {
+    color: #b92a2a;
+    position: relative;
+    display: flex;
+    /* top: 33%; */
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+  /* .navbar {
+    color: #b92a2a;
+    position: relative;
+   left: 33px;
+    
+    justify-content: center;
+    flex-direction: row;
+    
+  } */
+  .buttons{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: auto;
+  }
+  .b1{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .b2{
+    width: 150px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid #F53855;
+    color: #F53855;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  .nav-item { 
+    position: relative;
+   
+    margin-right: 20px;
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+   
+  }
+  .head{
+    display: flex;
+    
+    
+}
+.logo{
+    height: 6vmin;
+}
+  .head h1{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}  
+.second h1{
+    width: 555px;
+    color: #0B132A;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 70px; /* 140% */
+color: #0B132A;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+
+}
+.second h5{
+    width: 555px;
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+
+}
+
+.bb{
+    color: rgb(246, 250, 250);
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 156.25% */
+    text-align: center;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+
+}
+.user{
+    width: 55px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 70px;
+background: #FFECEC;
+}
+.users h6{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+position: relative;
+margin-top: 3%;
+    text-align: center;
+}
+.users h4{
+    position: relative;
+    top: -32%;
+    color: #4F5665;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.plat{
+    display: flex;
+}
+.plat h2{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.plat h4{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.hot{
+   height: 73vmin;
+}
+.plat li{
+    list-style: none;
+    color: #4F5665;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.sond{
+    display: flex;
+    position: relative;
+    margin-top: -20%;
+    margin-left: 60%;
+}
