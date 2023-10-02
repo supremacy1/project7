@@ -26,11 +26,13 @@ const MainBoard = () => {
         <li className="nav-item">About</li>
         <li className="nav-item">Services</li>
         <li className="nav-item">Contact</li>
-        <li className="nav-item">Sign in</li>
-        <li className="nav-item">Sign up</li>
       </ul>
       
     </div>
+    <div className="buttons">
+            <button type="text" className="b1">Sign in</button>
+            <button type="text" className="b2">Sign Up</button>
+            </div>
             </div>
             <div className="second">
                 <h1>Want anything to be easy with LaslesVPN.</h1>
