@@ -31,10 +31,6 @@ const MainBoard = () => {
       </ul>
       
     </div>
-    <div className="buttons">
-            <button type="text" className="b1">Sign in</button>
-            <button type="text" className="b2">Sign Up</button>
-            </div>
             </div>
             <div className="second">
                 <h1>Want anything to be easy with LaslesVPN.</h1>
