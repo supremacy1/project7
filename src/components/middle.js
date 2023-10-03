@@ -1,7 +1,7 @@
 import React from "react";
-import middle from '../css/middle.css'
+// import middle from '../css/middle.css'
 import Premium from '../images/Premium.svg'
-
+import Vector from '../images/Vector (2).svg'
 
 const Middle = () => {
 
@@ -79,7 +79,13 @@ const Middle = () => {
             <button>Select</button>
             </div>
            </div>
-            </div>
+           </div>
+            <div className="mape">
+            <h1>Huge Global Network of Fast VPN</h1>
+            <h4>See LaslesVPN everywhere to make it easier for you when you move locations.</h4>
+            <img src={Vector} className="mape" alt="ma"></img>
+           </div>
+           <div className="let"></div>
       
         </>
     )

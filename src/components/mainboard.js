@@ -15,17 +15,22 @@ const MainBoard = () => {
 
     return(
         <>
+        
         <div className="content">
-            <div className="head">
-           <img src={logo} className="logo" alt="logo"></img> <h1>LaslesVPN</h1>
-           </div>
+        <div className="container">
+      <img src={logo} alt="Image" className="image" />
+      <div className="text">
+        <h2>LaslesVPN</h2>
+      </div>
+      </div>
            <div className="navbar">
            
       <ul className="nav-list">
-        <li className="nav-item">Home</li>
         <li className="nav-item">About</li>
-        <li className="nav-item">Services</li>
-        <li className="nav-item">Contact</li>
+        <li className="nav-item">Features</li>
+        <li className="nav-item">Pricing</li>
+        <li className="nav-item">Testimonials</li>
+        <li className="nav-item">Help</li>
       </ul>
       
     </div>

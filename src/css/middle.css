@@ -103,3 +103,34 @@ background: #FFF;
 border: 2px solid #F53838;
 background: #FFF;
 }
+.mape{
+    text-align: center;
+   
+}
+.mape h1{
+    
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+}
+.mape h4{
+    
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.ma{
+    width: 1060px;
+height: 537.771px;
+flex-shrink: 0;
+fill: #DDE0E4;
+opacity: 0.5;
+}

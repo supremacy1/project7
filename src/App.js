@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
      <MainBoard />
-     <Middle />
+     {/* <Middle /> */}
     </div>
   );
 }
