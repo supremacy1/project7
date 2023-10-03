@@ -16,6 +16,12 @@
   
   .text {
     flex: 1; /* Allow the text to grow and take up remaining space */
+    color: #0B132A;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   }
   
   /* Additional styling for text, e.g., fonts, colors, etc. */
@@ -129,22 +135,41 @@ line-height: normal;
     font-weight: 700;
     line-height: normal;
 }   */
-/* .second h1{
+.second {
+    display: flex;
+}
+.second h1{
     width: 555px;
     color: #0B132A;
-font-family: Rubik;
-font-size: 50px;
-font-style: normal;
-font-weight: 500;
-line-height: 70px; 
-color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px; /* 140% */
+
+}
+.second span{
+    color: #0B132A;
 font-family: Rubik;
 font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: 70px;
-
-} */
+}
+.second span h5{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.sond{
+    position: relative;
+    height: 40vmin;
+    left: 13%;
+    background: #FFF;
+}
 /* .second h5{
     width: 555px;
     color: #4F5665;
@@ -162,7 +187,7 @@ line-height: 30px;
 
 } */
 
-/* .bb{
+.bb{
     color: rgb(246, 250, 250);
     width: 250px;
     height: 60px;
@@ -175,13 +200,21 @@ line-height: 30px;
     font-weight: 700;
     line-height: 25px; 
     text-align: center;
-} */
-/* .users{
+}
+.users{
     display: flex;
     justify-content: space-around;
 
-} */
-/* .user{
+}
+.text span{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+/* .container{
     width: 55px;
 height: 55px;
 flex-shrink: 0;
@@ -209,29 +242,29 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 } */
-/* .plat{
+.plat{
     display: flex;
-} */
-/* .plat h2{
+}
+.plat h2{
     color: #0B132A;
 font-family: Rubik;
 font-size: 35px;
 font-style: normal;
 font-weight: 500;
 line-height: 50px;
-} */
-/* .plat h4{
+}
+.plat h4{
     color: #4F5665;
 font-family: Rubik;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-} */
-/* .hot{
+}
+.hot{
    height: 73vmin;
-} */
-/* .plat li{
+}
+.plat li{
     list-style: none;
     color: #4F5665;
 font-family: Rubik;
@@ -239,10 +272,12 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; 
-} */
-/* .sond{
-    display: flex;
+
+}
+.ima{
     position: relative;
-    margin-top: -20%;
-    margin-left: 60%;
-} */
+padding-left: 0%;
+height: 24px;
+flex-shrink: 0;
+margin-top: 11px;
+}
