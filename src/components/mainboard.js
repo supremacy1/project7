@@ -17,14 +17,14 @@ const MainBoard = () => {
         <>
         
         <div className="content">
-        <div className="container">
+       
+           <div className="navbar">
+           <div className="container">
       <img src={logo} alt="Image" className="image" />
       <div className="text">
         <h2>LaslesVPN</h2>
       </div>
       </div>
-           <div className="navbar">
-           
       <ul className="nav-list">
         <li className="nav-item">About</li>
         <li className="nav-item">Features</li>
