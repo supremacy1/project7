@@ -1,5 +1,5 @@
 import React from "react";
-// import middle from '../css/middle.css'
+import middle from '../css/middle.css'
 import Premium from '../images/Premium.svg'
 import Vector from '../images/Vector (2).svg'
 
