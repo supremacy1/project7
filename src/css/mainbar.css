@@ -5,7 +5,7 @@
     align-items: center; /* Vertically center the content */
     padding: 20px;
     margin-top: -3%;
-    right: 4%;
+    right: 0%;
   }
   
   .image {
@@ -214,34 +214,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 150% */
 }
-/* .container{
-    width: 55px;
-height: 55px;
-flex-shrink: 0;
-border-radius: 70px;
-background: #FFECEC;
-} */
-/* .users h6{
-    color: #0B132A;
-font-family: Rubik;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; 
-position: relative;
-margin-top: 3%;
-    text-align: center;
-} */
-/* .users h4{
-    position: relative;
-    top: -32%;
-    color: #4F5665;
-font-family: Rubik;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-} */
+
 .plat{
     display: flex;
 }
@@ -277,18 +250,17 @@ padding-left: 0%;
 text-align: start;
 
 }
-.ima{
+.ima1{
     position: relative;
 padding-right: 0%;
 height: 24px;
 flex-shrink: 0;
-flex: 1;
 
 }
 .tet{
     position: relative;
 }
-.sort{
+.sort1{
     display: flex;
     
 }

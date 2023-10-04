@@ -79,12 +79,12 @@ const MainBoard = () => {
         <div className="text">
             <h2>We Provide Many Features You Can Use</h2>
             <h4>You can explore the features that we provide with fun and have their own functions each feature.</h4>
-           <div className="sort">
+           <div className="sort1">
            <ul>
-           <li className="tet"><img src={bx} alt="Image" className="ima" />Powerfull online protection.</li>
-            <li className="tet"><img src={bx} alt="Image" className="ima" />Internet without borders.</li>
-            <li className="tet"><img src={bx} alt="Image" className="ima" />Supercharged VPN</li>
-            <li className="tet"><img src={bx} alt="Image" className="ima" />No specific time limits.</li>
+           <li className="tet"><img src={bx} alt="Image" className="ima1" />Powerfull online protection.</li>
+            <li className="tet"><img src={bx} alt="Image" className="ima1" />Internet without borders.</li>
+            <li className="tet"><img src={bx} alt="Image" className="ima1" />Supercharged VPN</li>
+            <li className="tet"><img src={bx} alt="Image" className="ima1" />No specific time limits.</li>
            </ul>
       
            </div>

@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import Footer from './components/foot';
 import MainBoard from './components/mainboard';
 import Middle from './components/middle';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <MainBoard />
      <Middle />
+     <Footer />
     </div>
   );
 }
