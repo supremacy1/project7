@@ -1,6 +1,27 @@
 .maincontainer{
     text-align: center;
 }
+.maincontainer h1{
+  
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; 
+text-align: center;
+}
+.maincontainer h5{
+    
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
 .pp{
     height: 20vmax;
     align-items: center;
@@ -52,12 +73,18 @@ padding-left: 25%;
 .class button{
     /* width: 177.876px; */
     position: relative;
-height: 45px;
+/* height: 45px; */
 flex-shrink: 0;
 border-radius: 50px;
 border: 2px solid #F53838;
 margin-left: 15%;
 width: 100px;
+width: 177.876px;
+height: 45px;
+flex-shrink: 0;
+margin-top: -39%;
+top: 99%;
+right: 20%;
 }
 
 .any{
@@ -76,7 +103,7 @@ width: 100px;
 .class1{
     position: relative;
     left: 3%;
-    /* width: 330px; */
+    width: 330px;
 height: 760px;
 flex-shrink: 0;
 border-radius: 10px;
@@ -86,7 +113,7 @@ background: #FFF;
 .class2{
     position: relative;
     left: 15%;
-    /* width: 330px; */
+    width: 330px;
 height: 760px;
 flex-shrink: 0;
 border-radius: 10px;
@@ -97,7 +124,9 @@ background: #FFF;
 .class3{
     position: relative;
     left: 30%;
-    
+    width: 330px;
+height: 760px;
+flex-shrink: 0;
     height: 760px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -105,11 +134,17 @@ border: 2px solid #F53838;
 background: #FFF;
 }
 .mape{
+    position: relative;
+    left: 3%;
     text-align: center;
-   
+    width: 1060px;
+    height: 537.771px;
+    flex-shrink: 0;
 }
 .mape h1{
-    
+    position: relative;
+    left: 40%;
+    width: 383.406px;
     color: #0B132A;
 text-align: center;
 font-family: Rubik;
@@ -119,7 +154,9 @@ font-weight: 500;
 line-height: 50px;
 }
 .mape h4{
-    
+    width: 555px;
+    position: relative;
+    left: 40%;
     color: #4F5665;
 text-align: center;
 font-family: Rubik;
@@ -134,4 +171,60 @@ height: 537.771px;
 flex-shrink: 0;
 fill: #DDE0E4;
 opacity: 0.5;
+}
+.bbt1{
+    position: relative;
+    margin-top: 50%;
+}
+.bbt1 h4{
+    position: relative;
+    right: 10%;
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+
+}
+.bbt2{
+    position: relative;
+    margin-top: 30%;
+}
+.bbt2 h4{
+    position: relative;
+    right: 10%;
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 120% */
+
+}
+.bbt3{
+    position: relative;
+    margin-top: 15%;
+ 
+}
+.bbt3 h4{
+    position: relative;
+    right: 10%;
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+.bb3{
+    width: 177.876px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F53838;
+    color: #DDD;
 }

@@ -28,18 +28,11 @@ const Middle = () => {
                 <li>Encrypted Connection</li>
                 <li>No Traffic Logs</li>
                 <li>Works on All Devices</li>
-            </ul>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>   
-            <h4>Free Plan</h4>
+                <div className="bbt1">
+                <h4>Free Plan</h4>
             <button>Select</button>
+            </div>
+            </ul>           
             </div>
            </div>
            <div className="class2">
@@ -53,13 +46,11 @@ const Middle = () => {
                 <li>Yes Traffic Logs</li>
                 <li>Works on All Devices</li>
                 <li>Connect Anyware</li>
-            </ul><br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <h4>$9 / mo</h4>
+                <div className="bbt2">
+                <h4>$9 / mo</h4>
             <button>Select</button>
+            </div>
+            </ul><br></br>
             </div>
            </div>
            <div className="class3">
@@ -74,9 +65,11 @@ const Middle = () => {
                 <li>Works on All Devices</li>
                 <li>Connect Anyware</li>
                 <li>Get New Features</li>
+                <div className="bbt3">
+                <h4>$12 / mo</h4>
+            <button className="bb3">Select</button>
+            </div>
             </ul>
-            <h4>$12 / mo</h4>
-            <button>Select</button>
             </div>
            </div>
            </div>
