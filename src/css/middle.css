@@ -34,7 +34,7 @@ line-height: 30px;
 } */
 .class{
     width: 330px;
-height: 760px;
+height: 1000px;
 flex-shrink: 0;
 border-radius: 10px;
 position: relative;
@@ -52,6 +52,8 @@ right: 33px;
     justify-content: center;
     padding-left: 4px;
     line-height: 9px;
+    
+    
 }
 .anyher h4{
     position: relative;
@@ -104,7 +106,7 @@ right: 20%;
     position: relative;
     left: 3%;
     width: 330px;
-height: 760px;
+height: 960px;
 flex-shrink: 0;
 border-radius: 10px;
 border: 2px solid #DDD;
@@ -114,23 +116,24 @@ background: #FFF;
     position: relative;
     left: 15%;
     width: 330px;
-height: 760px;
+height: 960px;
 flex-shrink: 0;
 border-radius: 10px;
 border: 2px solid #DDD;
 background: #FFF;
 
 }
+
 .class3{
     position: relative;
     left: 30%;
     width: 330px;
-height: 760px;
+height: 960px;
 flex-shrink: 0;
-    height: 760px;
+    
     flex-shrink: 0;
     border-radius: 10px;
-border: 2px solid #F53838;
+border: 2px solid #f00c0c;
 background: #FFF;
 }
 .mape{
