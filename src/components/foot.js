@@ -12,6 +12,9 @@ import twinter from '../images/Twitter.svg'
 import insta from '../images/Instagram.svg'
 import inst from '../images/ant.svg'
 import rect from '../images/Rectangle 275.png'
+import chat from '../images/chat.svg'
+import chat1 from '../images/chat1.svg'
+import chat2 from '../images/chat2.svg'
 
 const Footer = () => {
   return (
@@ -24,14 +27,14 @@ const Footer = () => {
 
         <div className='profile-container'>
           <div className="profile-box">
-            <img src={bx} alt="Profile" className="profile-image" />
+            <img src={chat} alt="Profile" className="profile-image" />
             <div className="profile-info">
               <h2>Viezh Robert<span><h5>Warsaw, Poland</h5></span></h2>
               <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
             </div>
             <img src={inst} className='f2'></img><h5 className='fat1'>4.5</h5>
             <div className='pro1'>
-              <img src={bx} alt="Profile" className="profile-image" />
+              <img src={chat1} alt="Profile" className="profile-image" />
               <div className="profile-info ">
                 <h2>Yessica Christy<span><h5>Shanxi, China</h5></span></h2>
                 <p>“I like it because I like to travel far and still can connect with high speed.”.</p>
@@ -39,7 +42,7 @@ const Footer = () => {
               <img src={inst} className='f3'></img><h5 className='fat3'>4.5</h5>
             </div>
             <div className='pr2'>
-              <img src={bx} alt="Profile" className="profile-image" />
+              <img src={chat2} alt="Profile" className="profile-image" />
               <div className="prof">
                 <h2>Kim Young Jou<span><h5>Seoul,South Korea</h5></span></h2>
                 <p>“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
