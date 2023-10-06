@@ -5,7 +5,8 @@ import her from '../images/her.svg'
 import loca from '../images/loca.svg'
 import ser from '../images/ser.svg'
 import images from '../images/images.jpg'
-import download from '../images/download .png'
+import ima from '../images/imas.jpg'
+import imag from '../images/image1.jpg'
 import bx from '../images/bx.svg'
 
 
@@ -45,7 +46,7 @@ const MainBoard = () => {
         <h1>Want anything to be easy with <span>LaslesVPN.</span>
           <span><h5>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</h5></span>
         </h1>
-        <img src={download} className="sond"></img>
+        <img src={imag} className="sond"></img>
       </div>
       <div className="but">
         <button className="bb">Get Started</button>
@@ -73,7 +74,7 @@ const MainBoard = () => {
         </div>
       </div>
       <div className="plat">
-        <img src={images} className="hot"></img>
+        <img src={ima} className="hot"></img>
         <div className="next">
           <h2>We Provide Many Features You Can Use</h2>
           <h4>You can explore the features that we provide with fun and have their own functions each feature.</h4>

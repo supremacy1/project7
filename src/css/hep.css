@@ -1,0 +1,40 @@
+/* ImageChatToggle.css */
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .chat-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .hovered .image {
+    opacity: 0;
+  }
+  
+  .hovered .chat-text {
+    opacity: 1;
+  }
+  
