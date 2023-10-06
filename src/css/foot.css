@@ -46,6 +46,8 @@
 }
 
 .pro1 {
+  position: relative;
+  right: 10%;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -59,7 +61,8 @@
 }
 
 .pr2 {
-  margin-left: 4%;
+ position: relative;
+ right: 6%;
   padding: 20px;
   display: flex;
   align-items: center;
