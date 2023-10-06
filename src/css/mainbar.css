@@ -203,7 +203,8 @@ line-height: 30px; /* 150% */
 
 .plat{
     display: flex;
-    justify-content: space-around;
+    position: relative;
+    justify-content: space-between;
 }
 .plat h2{
   width: 383.406px;
