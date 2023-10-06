@@ -263,3 +263,12 @@ flex-shrink: 0;
     position: relative;
     left:  33px;
 }
+.contner{
+  position: relative;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 20px;
+    margin-top: -3%;
+    right: 0%;
+    justify-content: space-between;
+}

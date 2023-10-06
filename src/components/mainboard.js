@@ -62,7 +62,7 @@ const MainBoard = () => {
 
           </div>
         </div>
-        <div className="container">
+        <div className="contner">
           <img src={loca} alt="Image" className="image" />
           <div className="text">
             <h2>30+<br></br><span>Locations</span></h2>

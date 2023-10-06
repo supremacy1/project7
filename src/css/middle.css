@@ -43,6 +43,7 @@ background: #FFF;
 align-items: center;
 margin: 33px;
 display: flex;
+justify-content: space-between;
 position: relative;
 right: 33px;
 }
