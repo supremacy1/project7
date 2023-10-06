@@ -35,7 +35,10 @@ const MainBoard = () => {
             <li className="nav-item">Testimonials</li>
             <li className="nav-item">Help</li>
           </ul>
-
+          {/* <div className="buttons">
+          <button type="text" className="b1">Sign in</button>
+          <button type="text" className="b2">Sign Up</button>
+        </div> */}
         </div>
         <div className="buttons">
           <button type="text" className="b1">Sign in</button>

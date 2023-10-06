@@ -18,7 +18,9 @@ height: 5189px; */
   
   .text {
     display: flex;
-    flex: 1; /* Allow the text to grow and take up remaining space */
+    position: relative;
+    /* margin-left: 2%; */
+    /* flex: 1; */
     color: #0B132A;
 font-family: Rubik;
 font-size: 20px;
@@ -46,10 +48,14 @@ line-height: normal;
 .content{
     display: flex;
     position: relative;
+    /* margin-left: 3%; */
     margin-top: 5%;
-    justify-content: center;
-    justify-self: stretch;
-    justify-content: space-around;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
+    /* margin-left: 25%; */
     
 }
 /* NavBar.css */
