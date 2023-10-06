@@ -224,7 +224,11 @@ font-weight: 400;
 line-height: 30px;
 }
 .hot{
+  position: relative;
+  margin-left: 7%;
    height: 73vmin;
+   display: flex;
+
 }
 .plat li{
     list-style: none;
