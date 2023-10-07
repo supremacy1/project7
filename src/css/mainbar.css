@@ -39,12 +39,7 @@ line-height: normal;
     font-size: 16px;
     color: #333;
   }
-  /* @media (min-width: 768px) {
-    .container {
-      flex-direction: row; 
-      align-items: center; 
-    }
-} */
+
 .content{
     display: flex;
     position: relative;
@@ -58,32 +53,13 @@ line-height: normal;
     /* margin-left: 25%; */
     
 }
-/* NavBar.css */
-/* .navbar {
-    color: #b92a2a;
-    position: relative;
-    display: flex;
-   
-    justify-content: center;
-    flex-direction: row;
-    
-  } */
-  /* .navbar {
-    color: #b92a2a;
-    position: relative;
-   left: 33px;
-    
-    justify-content: center;
-    flex-direction: row;
-    
-  } */
-  /* .buttons{
-display: flex;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: auto;
-  } */
+.buttons{
+  display: flex;
+  margin-right: 2%;
+}
   .b1{
+    display: flex;
+    margin-top: 8%;
     color: #0B132A;
 font-family: Rubik;
 font-size: 16px;
@@ -91,6 +67,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 border: 0px;
+background-color: #FFF;
   }
   .b2{
     width: 150px;
@@ -272,3 +249,67 @@ flex-shrink: 0;
     right: 0%;
     justify-content: space-between;
 }
+  /* @media (min-width: 500px) {
+    .container h2 {
+   font-size: 12px;
+    }
+  } */
+@media (max-width: 500px) {
+   .text h2 {
+    font-size: 10px;
+     }
+     .nav-list{
+      font-size: x-small;
+     }
+     .buttons{
+      height: 20px;
+     }
+     
+}
+@media (max-width: 700px) {
+  .text h2 {
+   font-size: 10px;
+    }
+    .nav-list{
+     font-size: x-small;
+    }
+    .buttons{
+      height: 20px;
+     }
+}
+@media (max-width: 800px) {
+  .text h2 {
+   font-size: 10px;
+    }
+    .nav-list{
+     font-size: x-small;
+    }
+    .buttons{
+      height: 20px;
+     }
+}
+
+@media (max-width: 500px) {
+  .second h1, span {
+   font-size: 20px;
+    }
+    .sond{
+      height: 35vmin;
+    }
+}
+
+/* @media (max-width: 500px) {
+  .container h2{
+      font-size: 9px;
+  }
+  .nav-list{
+      font-size: 9px;
+  }
+  .image{
+    height: 3vmin;
+  }
+  .b1, .b2{
+
+    font-size: 2px;
+  }
+} */

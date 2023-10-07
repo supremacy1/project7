@@ -1,0 +1,26 @@
+body{
+    background-color: red;
+}
+h2{
+    margin: 4%;
+    font-size: 44px;
+}
+
+/* @media (max-width: 500px) {
+    h2{
+        font-size: 40px;
+    }
+    .hot{
+        transition: 3s;
+        height: 33px;
+    }
+} */
+@media (max-width: 500px) {
+    .got h2{
+        font-size: 4px;
+    }
+    .hot{
+        transition: 1s;
+        height: 33px;
+    }
+}
