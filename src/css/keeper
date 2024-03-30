@@ -1,25 +1,28 @@
+main
+
 /* width: 1440px;
 height: 5189px; */
 /* ImageTextSideBySide.css */
 .container {
     position: relative;
     display: flex;
-    align-items: center; 
+    align-items: center; /* Vertically center the content */
     padding: 20px;
     margin-top: -3%;
     right: 0%;
   }
   
   .image {
-    max-width: 55%;
+    max-width: 55%; /* Adjust the width as needed */
     height: auto;
-    margin-right: 2px; 
+    margin-right: 2px; /* Add spacing between image and text */
   }
   
   .text {
     display: flex;
     position: relative;
-  
+    /* margin-left: 2%; */
+    /* flex: 1; */
     color: #0B132A;
 font-family: Rubik;
 font-size: 20px;
@@ -28,7 +31,7 @@ font-weight: 500;
 line-height: normal;
   }
   
-  
+  /* Additional styling for text, e.g., fonts, colors, etc. */
   h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -42,12 +45,14 @@ line-height: normal;
 .content{
     display: flex;
     position: relative;
-  
+    /* margin-left: 3%; */
     margin-top: 5%;
- 
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
     justify-content: space-between;
 
-  
+    /* margin-left: 25%; */
     
 }
 .buttons{
@@ -109,13 +114,13 @@ line-height: normal;
     margin-left: 7%;
 }
 .second h1{
-    /* width: 555px; */
+    width: 555px;
     color: #0B132A;
     font-family: Rubik;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    line-height: 70px; 
+    line-height: 70px; /* 140% */
 
 }
 .second span{
@@ -134,12 +139,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-/* .sond{
+.sond{
     position: relative;
     height: 40vmin;
     left: 13%;
     background: #FFF;
-} */
+}
 .but{
   position: relative;
   margin-top: -5%;
@@ -177,11 +182,11 @@ line-height: 30px; /* 150% */
 
 .plat{
     display: flex;
-    /* position: relative;  */
-    /* justify-content: space-between; */
+    position: relative;
+    justify-content: space-between;
 }
 .plat h2{
-  /* width: 383.406px; */
+  width: 383.406px;
     color: #0B132A;
 font-family: Rubik;
 font-size: 35px;
@@ -240,7 +245,7 @@ flex-shrink: 0;
 .contner{
   position: relative;
     display: flex;
-    align-items: center; 
+    align-items: center; /* Vertically center the content */
     padding: 20px;
     margin-top: -3%;
     right: 0%;
@@ -294,14 +299,6 @@ flex-shrink: 0;
       height: 35vmin;
     }
 }
-@media (max-width: 500px) {
-  .plat {
-   font-size: 0px;
-    }
-    .hot{
-      height: 35vmin;
-    }
-}
 
 /* @media (max-width: 500px) {
   .container h2{
@@ -318,3 +315,130 @@ flex-shrink: 0;
     font-size: 2px;
   }
 } */
+
+
+
+/* ImageTextSideBySide.css */
+
+/* General styles */
+.container {
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 10px; /* Reduced padding for smaller screens */
+    margin-top: -2%; /* Adjusted margin for smaller screens */
+}
+
+.image {
+    max-width: 50%; /* Reduced image width for smaller screens */
+    height: auto;
+    margin-right: 1%; /* Reduced spacing between image and text */
+}
+
+.text {
+    display: flex;
+    position: relative;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px; /* Reduced font size for smaller screens */
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 20px; /* Adjusted heading font size for smaller screens */
+    margin-bottom: 8px; /* Reduced margin for smaller screens */
+}
+
+p {
+    font-size: 14px; /* Reduced paragraph font size for smaller screens */
+    color: #333;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    margin-right: 1%; /* Reduced margin for smaller screens */
+}
+
+.b1, .b2 {
+    font-size: 14px; /* Reduced font size for smaller screens */
+}
+
+/* Navigation */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    font-size: 14px; /* Reduced font size for smaller screens */
+}
+
+.nav-item { 
+    position: relative;
+    margin-right: 10px; /* Reduced margin for smaller screens */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Second section */
+.second h1 {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+    line-height: 50px; /* Adjusted line height for smaller screens */
+}
+
+.second span {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+    font-weight: 700;
+}
+
+.second span h5 {
+    font-size: 14px; /* Reduced font size for smaller screens */
+}
+
+/* More adjustments for smaller screens */
+@media (max-width: 700px) {
+    .container {
+        padding: 8px;
+    }
+
+    .nav-item {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 5px;
+    }
+
+    .image {
+        max-width: 40%;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .buttons, .nav-list {
+        font-size: 12px;
+    }
+
+    .second h1, .second span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .second span h5 {
+        font-size: 12px;
+    }
+}
