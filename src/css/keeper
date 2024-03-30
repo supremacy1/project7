@@ -442,3 +442,310 @@ p {
         font-size: 12px;
     }
 }
+
+
+loppp
+/* width: 1440px;
+height: 5189px; */
+/* ImageTextSideBySide.css */
+.container {
+  position: relative;
+  display: flex;
+  align-items: center; 
+  padding: 20px;
+  margin-top: -3%;
+  right: 0%;
+}
+
+.image {
+  max-width: 55%;
+  height: auto;
+  margin-right: 2px; 
+}
+
+.text {
+  display: flex;
+  position: relative;
+
+  color: #0B132A;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.content{
+  display: flex;
+  position: relative;
+
+  margin-top: 5%;
+
+  justify-content: space-between;
+
+
+  
+}
+.buttons{
+display: flex;
+margin-right: 2%;
+}
+.b1{
+  display: flex;
+  margin-top: 8%;
+  color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: 0px;
+background-color: #FFF;
+}
+.b2{
+  width: 150px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid #F53855;
+  color: #F53855;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nav-item { 
+  position: relative;
+ 
+  margin-right: 20px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+ 
+}
+
+.second {
+  display: flex;
+  margin: 3%;
+  margin-left: 7%;
+}
+.second h1{
+  /* width: 555px; */
+  color: #0B132A;
+  font-family: Rubik;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; 
+
+}
+.second span{
+  color: #0B132A;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+}
+.second span h5{
+  color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* .sond{
+  position: relative;
+  height: 40vmin;
+  left: 13%;
+  background: #FFF;
+} */
+.but{
+position: relative;
+margin-top: -5%;
+margin-left: 8%;
+}
+.bb{
+  color: rgb(246, 250, 250);
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F53838;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; 
+  text-align: center;
+}
+.users{
+display: flex;
+margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.text span{
+  color: #4F5665;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.plat{
+  display: flex;
+  /* position: relative;  */
+  /* justify-content: space-between; */
+}
+.plat h2{
+/* width: 383.406px; */
+  color: #0B132A;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+}
+.plat h4{
+width: 427.879px;
+  color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.hot{
+position: relative;
+margin-left: 7%;
+ height: 73vmin;
+ display: flex;
+
+}
+.plat li{
+  list-style: none;
+  color: #4F5665;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+position: relative;
+padding-left: 0%;
+text-align: start;
+
+}
+.ima1{
+  position: relative;
+padding-right: 0%;
+height: 24px;
+flex-shrink: 0;
+
+}
+.tet{
+  position: relative;
+}
+.sort1{
+  display: flex;
+  flex-direction: column;
+  
+}
+.text1{
+  position: relative;
+  left:  33px;
+}
+.contner{
+position: relative;
+  display: flex;
+  align-items: center; 
+  padding: 20px;
+  margin-top: -3%;
+  right: 0%;
+  justify-content: space-between;
+}
+/* @media (min-width: 500px) {
+  .container h2 {
+ font-size: 12px;
+  }
+} */
+@media (max-width: 500px) {
+ .text h2 {
+  font-size: 10px;
+   }
+   .nav-list{
+    font-size: x-small;
+   }
+   .buttons{
+    height: 20px;
+   }
+   
+}
+@media (max-width: 700px) {
+.text h2 {
+ font-size: 10px;
+  }
+  .nav-list{
+   font-size: x-small;
+  }
+  .buttons{
+    height: 20px;
+   }
+}
+@media (max-width: 800px) {
+.text h2 {
+ font-size: 10px;
+  }
+  .nav-list{
+   font-size: x-small;
+  }
+  .buttons{
+    height: 20px;
+   }
+}
+
+@media (max-width: 500px) {
+.second h1, span {
+ font-size: 20px;
+  }
+  .sond{
+    height: 35vmin;
+  }
+}
+@media (max-width: 500px) {
+.plat {
+ font-size: 0px;
+  }
+  .hot{
+    height: 35vmin;
+  }
+}
