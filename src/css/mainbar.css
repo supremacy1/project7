@@ -235,6 +235,20 @@ p {
   right: 0%;
   justify-content: space-between;
 }
+.plat {
+  font-size: 16px; /* Adjust as necessary */
+}
+
+.hot {
+  height: auto; /* Adjust height as necessary */
+  max-width: 100%; /* Ensure image doesn't overflow */
+}
+
+@media (max-width: 500px) {
+  .plat {
+      font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
 
 /* Media Queries */
 @media (max-width: 500px) {

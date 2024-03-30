@@ -76,7 +76,7 @@ const MainBoard = () => {
           </div>
         </div>
       </div>
-      <div className="plat">
+      {/* <div className="plat">
         <img src={ima} className="hot"></img>
         <div className="next">
           <h2>We Provide Many Features You Can Use</h2>
@@ -93,7 +93,31 @@ const MainBoard = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
+      <div class="plat">
+    <img src={ima} class="hot"></img>
+    <div class="next">
+        <h2>We Provide Many Features You Can Use</h2>
+        <h4>You can explore the features that we provide with fun and have their own functions each feature.</h4>
+        <div class="sort1">
+            <ul>
+                <li class="tet">
+                    <img src={bx} alt="Image" class="ima1" />Powerfull online protection.
+                </li>
+                <li class="tet">
+                    <img src={bx} alt="Image" class="ima1" />Internet without borders.
+                </li>
+                <li class="tet">
+                    <img src={bx} alt="Image" class="ima1" />Supercharged VPN
+                </li>
+                <li class="tet">
+                    <img src={bx} alt="Image" class="ima1" />No specific time limits.
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
     </>
   )
 }
