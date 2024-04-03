@@ -1,6 +1,8 @@
 /* Base styles */
+
 .maincontainer {
     text-align: center;
+    padding: 0 20px; /* Added padding for responsiveness */
 }
 
 .maincontainer h1 {
@@ -10,53 +12,49 @@
     font-style: normal;
     font-weight: 500;
     line-height: 5vw; /* Responsive line height */
+    margin-bottom: 20px; /* Added margin for spacing */
 }
 
 .maincontainer h5 {
-    color: #4F5665;
+    color: #654f4f;
     font-family: Rubik;
-    font-size: 1.6vw; /* Responsive font size */
+    font-size: 2.6vw; /* Responsive font size */
     font-style: normal;
     font-weight: 400;
     line-height: 3vw; /* Responsive line height */
+    margin-bottom: 30px; /* Added margin for spacing */
 }
 
 .pp {
     height: 20vmax;
-    align-items: center;
-    position: relative;
+    max-height: 200px; /* Limit max height for smaller screens */
+    width: auto; /* Ensure image width adjusts according to height */
     margin-top: 2.1vw; /* Responsive margin top */
 }
 
 .class {
-    width: 90%; /* Responsive width */
-    max-width: 330px; /* Max width for larger screens */
-    height: auto; /* Let height adjust based on content */
-    border-radius: 5vw; /* Responsive border radius */
-    position: relative;
-    padding-left: 2.6vw; /* Responsive padding */
-    background: #FFF;
-    align-items: center;
-    margin: 3.3vw; /* Responsive margin */
     display: flex;
-    justify-content: space-between;
+    flex-wrap: row; /* Allow items to wrap on smaller screens */
+    justify-content: center;
+    gap: 40px; /* Added gap between items */
 }
 
 .anyher {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 0.4vw; /* Responsive padding */
-    line-height: 0.9vw; /* Responsive line height */
-}
-
-.anyher h4 {
-    position: relative;
-    padding-right: 3vw; /* Responsive padding */
     text-align: center;
 }
 
+.anyher h4 {
+    margin-right: 0; /* Adjust margin for better centering */
+}
+
+/* .anyher ul {
+    padding-left: 0; 
+} */
 .anyher ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
     list-style: none;
     color: #4F5665;
     font-family: Rubik;
@@ -65,8 +63,11 @@
     font-weight: 400;
     line-height: 4vw; /* Responsive line height */
     padding-left: 7.5vw; /* Responsive padding */
-}
+  }
 
+/* .class button {
+    margin-top: 20px; Added margin for spacing 
+} */
 .class button {
     position: relative;
     border-radius: 50px;
@@ -75,260 +76,55 @@
     width: 15vw; /* Responsive width */
     height: 4.5vw; /* Responsive height */
     margin-top: -3.9vw; /* Responsive margin top */
+  }
+
+.mape {
+    margin: 50px auto; /* Center map container */
+    max-width: 100%; /* Ensure map image doesn't overflow container */
 }
-
-/* Add more responsive styles as needed */
-
-/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
     .maincontainer h1 {
         font-size: 6vw;
         line-height: 8vw;
     }
-
+  
     .maincontainer h5 {
         font-size: 3vw;
         line-height: 5vw;
     }
-
-    /* Add more specific styles for smaller screens */
-}
-
-@media screen and (max-width: 480px) {
-    /* Additional media queries for even smaller screens */
-}
-
-.maincontainer{
-    text-align: center;
-}
-.maincontainer h1{
   
+    /* Add more specific styles for smaller screens */
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Additional media queries for even smaller screens */
+  }
+  .mape h1{
+   display: flex;
+   justify-content: center;   
     color: #0B132A;
-text-align: center;
-font-family: Rubik;
-font-size: 35px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px; 
-text-align: center;
-}
-.maincontainer h5{
-    
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+
+  }
+  .mape h4{
+      left: 40%;
     color: #4F5665;
-text-align: center;
-font-family: Rubik;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
-}
-.pp{
-    height: 20vmax;
-    align-items: center;
-    position: relative;
-    margin-top:21px;
-}
-/* .class h4 {
-    
-    flex-direction: column;
-} */
-.class{
-    width: 330px;
-height: 1000px;
-flex-shrink: 0;
-border-radius: 10px;
-position: relative;
-padding-left: 13%;
-background: #FFF;
-align-items: center;
-margin: 33px;
-display: flex;
-justify-content: space-between;
-position: relative;
-right: 33px;
-}
-.anyher{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 4px;
-    line-height: 9px;
-    
-    
-}
-.anyher h4{
-    position: relative;
-    padding-right: 30px;
-    text-align: center;
-    
-}
-.anyher ul{
-    list-style: none;
-    color: #4F5665;
-font-family: Rubik;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; /* 214.286% */
-padding-left: 25%;
-
-}
-.class button{
-    /* width: 177.876px; */
-    position: relative;
-/* height: 45px; */
-flex-shrink: 0;
-border-radius: 50px;
-border: 2px solid #F53838;
-margin-left: 15%;
-width: 100px;
-width: 177.876px;
-height: 45px;
-flex-shrink: 0;
-margin-top: -39%;
-top: 99%;
-right: 20%;
-}
-
-.any{
-    position: relative;
-    width: 330px;
-    height: 760px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #8d1515;
-    background: #FFF;
-    align-items: center;
-    margin: 33px;
-    display: flex;
-    justify-content: space-around;
-}
-.class1{
-    position: relative;
-    left: 3%;
-    width: 330px;
-height: 960px;
-flex-shrink: 0;
-border-radius: 10px;
-border: 2px solid #DDD;
-background: #FFF;
-}
-.class2{
-    position: relative;
-    left: 15%;
-    width: 330px;
-height: 960px;
-flex-shrink: 0;
-border-radius: 10px;
-border: 2px solid #DDD;
-background: #FFF;
-
-}
-
-.class3{
-    position: relative;
-    left: 30%;
-    width: 330px;
-height: 960px;
-flex-shrink: 0;
-    
-    flex-shrink: 0;
-    border-radius: 10px;
-border: 2px solid #DDD;
-background: #FFF;
-}
-.mape{
-    position: relative;
-    left: 3%;
-    text-align: center;
-    width: 1060px;
-    height: 537.771px;
-    flex-shrink: 0;
-}
-.mape h1{
-    position: relative;
-    left: 40%;
-    width: 383.406px;
-    color: #0B132A;
-text-align: center;
-font-family: Rubik;
-font-size: 35px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
-}
-.mape h4{
-    width: 555px;
-    position: relative;
-    left: 40%;
-    color: #4F5665;
-text-align: center;
-font-family: Rubik;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
-}
-.ma{
-    width: 1060px;
-height: 537.771px;
-flex-shrink: 0;
-fill: #DDE0E4;
-opacity: 0.5;
-}
-.bbt1{
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  }
+  .bbt1{
     position: relative;
     margin-top: 50%;
-}
-.bbt1 h4{
-    position: relative;
-    right: 10%;
-    color: #0B132A;
-text-align: center;
-font-family: Rubik;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: 30px;
-
-}
-.bbt2{
+  }
+  .bbt2{
     position: relative;
     margin-top: 30%;
-}
-.bbt2 h4{
-    position: relative;
-    right: 10%;
-    color: #0B132A;
-text-align: center;
-font-family: Rubik;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: 30px; /* 120% */
-
-}
-.bbt3{
-    position: relative;
-    margin-top: 15%;
- 
-}
-.bbt3 h4{
-    position: relative;
-    right: 10%;
-    color: #0B132A;
-text-align: center;
-font-family: Rubik;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: 30px;
-}
-.bb3{
-    width: 177.876px;
-    height: 45px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #F53838;
-    color: #DDD;
-}
+  }
