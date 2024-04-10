@@ -37,15 +37,17 @@
     flex-wrap: row; /* Allow items to wrap on smaller screens */
     justify-content: center;
     gap: 40px; /* Added gap between items */
+    
+    
 }
 
-.anyher {
+/* .anyher {
     text-align: center;
-}
+} */
 
-.anyher h4 {
-    margin-right: 0; /* Adjust margin for better centering */
-}
+/* .anyher h4 {
+    margin-right: 0;  Adjust margin for better centering 
+} */
 
 /* .anyher ul {
     padding-left: 0; 
@@ -53,7 +55,7 @@
 .anyher ul {
     display: flex;
     align-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     list-style: none;
     color: #4F5665;
@@ -68,14 +70,16 @@
 /* .class button {
     margin-top: 20px; Added margin for spacing 
 } */
-.class button {
+.bb3, .bb2, .bb1 {
     position: relative;
     border-radius: 50px;
-    border: 2px solid #F53838;
+    border: 2px solid #e60606;
     margin-left: 2.25vw; /* Responsive margin left */
-    width: 15vw; /* Responsive width */
-    height: 4.5vw; /* Responsive height */
-    margin-top: -3.9vw; /* Responsive margin top */
+    width: 10vw; /* Responsive width */
+    height: 2.5vw; /* Responsive height */
+    margin-top: -8.9vw; /* Responsive margin top */
+    align-items: center;
+ 
   }
 
 .mape {
@@ -120,11 +124,79 @@
   font-weight: 400;
   line-height: 30px; 
   }
-  .bbt1{
+  /* .bbt1{
     position: relative;
     margin-top: 50%;
   }
   .bbt2{
     position: relative;
     margin-top: 30%;
+  } */
+  .bbt3{
+  position: relative;
+    margin-top: 15%;  }
+  .class3{
+    border: 2px solid red;
+    text-align: center;
   }
+  .class1{
+    border: 2px solid red;
+  }
+  .class2{
+    border: 2px solid red;
+  }
+  /* .loop{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+  }
+  .loop ul{
+    list-style: none;
+  }
+  .loop button{
+    border: 2px solid red;
+    border-radius: 22%;
+
+
+  }
+  .b{
+    position: relative;
+    margin-top: 10%;
+  } */
+  .loop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .plan ul {
+    list-style: none; /* Remove bullets from list items */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .plan {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1; /* Allow each plan to grow and take up available space */
+    display: flex; /* Use flexbox for the inner items */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+  
+  }
+  
+  .plan img {
+    display: block; /* Ensure the image does not affect the layout */
+    margin-bottom: 10px; /* Add space between image and heading */
+  }
+  
+  .plan h4 {
+    margin: 0; /* Remove default margin for h4 */
+  }
+  
+  .plan li {
+    margin-bottom: 5px;
+  }
+  
+  .plan button {
+    margin-top: 10px; /* Add space between list items and button */
+  }
+  

@@ -19,46 +19,47 @@ const Middle = () => {
        
         <div className="class">
             <div className="class1">
-        <div className="anyher">
-            <img src={Premium} className="pp"></img>
-            
-            <h4>Free Plan</h4>
+        <div className="anyher">           
             <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Free Plan</h4>
                 <li>Unlimited Bandwitch</li>
                 <li>Encrypted Connection</li>
                 <li>No Traffic Logs</li>
                 <li>Works on All Devices</li>
-                <div className="bbt1">
+                <div className="bbt3">
                 <h4>Free Plan</h4>
-            <button>Select</button>
+            <button className="bb1">Select</button>
             </div>
             </ul>           
             </div>
            </div>
+
            <div className="class2">
-        <div className="anyher">
-            <img src={Premium} className="pp"></img>
-            
-            <h4>Standard Plan</h4>
+        <div className="anyher">     
             <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Standard Plan</h4>
                 <li>Unlimited Bandwitch</li>
                 <li>Encrypted Connection</li>
                 <li>Yes Traffic Logs</li>
                 <li>Works on All Devices</li>
                 <li>Connect Anyware</li>
-                <div className="bbt2">
+                <div className="bbt3">
                 <h4>$9 / mo</h4>
-            <button>Select</button>
+            <button className="bb2">Select</button>
             </div>
-            </ul><br></br>
+            </ul>
             </div>
            </div>
            <div className="class3">
         <div className="anyher">
-            <img src={Premium} className="pp"></img>
             
-            <h4>Premium Plan</h4>
+            
+           
             <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Premium Plan</h4>
                 <li>Unlimited Bandwitch</li>
                 <li>Encrypted Connection</li>
                 <li>Yes Traffic Logs</li>
@@ -79,7 +80,81 @@ const Middle = () => {
             <img src={Vector} className="mape" alt="ma"></img>
            </div>
            <div className="let"></div>
-      
+
+          {/* <div className="loop">
+            <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Free Plan</h4>
+                <li>Unlimited Bandwitch</li>
+                <li>Encrypted Connection</li>
+                <li>No Traffic Logs</li>
+                <li>Works on All Devices</li>
+              
+                <h4>Free Plan</h4>
+            <button className="b">Select</button>
+         
+            </ul>
+            <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Standard Plan</h4>
+                <li>Unlimited Bandwitch</li>
+                <li>Encrypted Connection</li>
+                <li>Yes Traffic Logs</li>
+                <li>Works on All Devices</li>
+                <li>Connect Anyware</li>
+               
+                <h4>$9 / mo</h4>
+            <button className="b">Select</button>
+         
+            </ul>
+            <ul>
+            <img src={Premium} className="pp"></img>
+            <h4>Premium Plan</h4>
+                <li>Unlimited Bandwitch</li>
+                <li>Encrypted Connection</li>
+                <li>Yes Traffic Logs</li>
+                <li>Works on All Devices</li>
+                <li>Connect Anyware</li>
+                <li>Get New Features</li>
+                <h4>$12 / mo</h4>
+            <button className="b">Select</button>
+         
+            </ul>
+           </div> */}
+           <div class="loop">
+  <ul class="plan">
+    <img src={Premium} class="pp"></img>
+    <h4>Free Plan</h4>
+    <li>Unlimited Bandwidth</li>
+    <li>Encrypted Connection</li>
+    <li>No Traffic Logs</li>
+    <li>Works on All Devices</li>
+    <h4>Free Plan</h4>
+    <button class="b">Select</button>
+  </ul>
+  <ul class="plan">
+    <img src={Premium} class="pp"></img>
+    <h4>Free Plan</h4>
+    <li>Unlimited Bandwidth</li>
+    <li>Encrypted Connection</li>
+    <li>No Traffic Logs</li>
+    <li>Works on All Devices</li>
+    <h4>Free Plan</h4>
+    <button class="b">Select</button>
+  </ul>
+  <ul class="plan">
+    <img src={Premium} class="pp"></img>
+    <h4>Free Plan</h4>
+    <li>Unlimited Bandwidth</li>
+    <li>Encrypted Connection</li>
+    <li>No Traffic Logs</li>
+    <li>Works on All Devices</li>
+    <h4>Free Plan</h4>
+    <button class="b">Select</button>
+  </ul>
+</div>
+
+
         </>
     )
 }
